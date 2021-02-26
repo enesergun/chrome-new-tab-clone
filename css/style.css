@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+header > ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+header > ul > li {
+    margin-right: 10px;
+}
+
+#menu-icon {
+    position: relative;
+    top: 2px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#dots-menu {
+    height: 18px;
+    width: 18px;
+}
+
+#account {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.search-bar {
+    max-width: 520px;
+    height: 20px;
+    background-color: #eee;
+}
+
+.short-cuts {
+    max-width: 300px;
+    height: 40px;
+    background-color: wheat;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 200px;
+}
+
+#logo {
+    margin-bottom: 36px;
+
+}
