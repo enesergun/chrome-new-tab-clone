@@ -139,27 +139,25 @@ input:focus {
     margin-top: 30px;
 }
 
-.customize {
+.innerdiv {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+    background-color: white;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
     display: flex;
-    justify-content: space-around;
-    width: 110px;
-    background-color: #eee;
-    padding: 5px;
-    border-radius: 30px;
-    justify-self: flex-end;
-    color: rgb(26, 115, 232);
+    border-radius: 20px;
+    padding: 8px 16px;
 }
 
-.customize > figure {
-    margin: 0;
-}
 
 .pencil-icon {
     background-image: url("images/icon_pencil.svg/");
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
 }
 
-.customize > p {
-    font-size: 16px;
+.innerdiv > p {
+    font-size: 14px;
 }
