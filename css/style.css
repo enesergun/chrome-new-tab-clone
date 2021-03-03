@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+}
 
 header {
     display: flex;
@@ -20,6 +24,18 @@ header > ul {
 header > ul > li {
     margin-right: 10px;
 }
+
+.header-links:visited, .header-links:link {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+.header-links:hover {
+    text-decoration: underline;
+    color: currentColor;
+}
+
+
 
 #menu-icon {
     position: relative;
@@ -58,12 +74,18 @@ header > ul > li {
 
 
 .short-cuts {
+    border-radius: 10px;
+    width: 112px;
     padding: 10px;
     margin-top: 38px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.short-cuts:hover {
+    background-color: #cfcccc;
 }
 
 section {
@@ -126,7 +148,7 @@ input:focus {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: #eee;
+    background-color: rgba(241, 243, 244, 1);
 }
 .plus-icon > figure > img {
     width: 15px;
@@ -137,6 +159,7 @@ input:focus {
 .short-cuts > p {
     font-size: 13px;
     margin-top: 30px;
+    color: rgba(0,0,0,1);
 }
 
 .innerdiv {
@@ -146,6 +169,7 @@ input:focus {
     bottom: 16px;
     right: 16px;
     display: flex;
+    align-items: center;
     border-radius: 20px;
     padding: 8px 16px;
 }
@@ -161,3 +185,4 @@ input:focus {
 .innerdiv > p {
     font-size: 14px;
 }
+
