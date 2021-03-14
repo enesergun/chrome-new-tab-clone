@@ -38,15 +38,21 @@ header > ul > li {
 
 
 #menu-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
     position: relative;
     top: 2px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 #dots-menu {
-    height: 18px;
-    width: 18px;
+    height: 16px;
+    width: 16px;
 }
 
 #account {
@@ -186,3 +192,12 @@ input:focus {
     font-size: 14px;
 }
 
+#dots-menu {
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+#menu-icon:hover {
+    background-color: rgba(60,64,67,0.08);
+}
